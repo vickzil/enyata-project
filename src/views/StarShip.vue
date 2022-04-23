@@ -1,16 +1,14 @@
 <template>
   <div class="inner_content">
-    <DashboardBoxes />
     <Table />
   </div>
 </template>
 
 <script>
-import DashboardBoxes from "../components/home/DashboardBoxes.vue";
-import Table from "../components/movies/film/Table.vue";
+import Table from "../components/movies/starship/Table.vue";
+
 export default {
   components: {
-    DashboardBoxes,
     Table,
   },
 

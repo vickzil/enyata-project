@@ -1,17 +1,15 @@
 <template>
   <div class="inner_content">
-    <DashboardBoxes />
-    <Table />
+    <MovieDetails />
   </div>
 </template>
 
 <script>
-import DashboardBoxes from "../components/home/DashboardBoxes.vue";
-import Table from "../components/movies/film/Table.vue";
+import MovieDetails from "../components/movies/starship/StarShipDetails.vue";
+
 export default {
   components: {
-    DashboardBoxes,
-    Table,
+    MovieDetails,
   },
 
   mounted() {

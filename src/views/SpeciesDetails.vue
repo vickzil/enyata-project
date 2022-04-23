@@ -1,17 +1,15 @@
 <template>
   <div class="inner_content">
-    <DashboardBoxes />
-    <Table />
+    <SpecieDetails />
   </div>
 </template>
 
 <script>
-import DashboardBoxes from "../components/home/DashboardBoxes.vue";
-import Table from "../components/movies/film/Table.vue";
+import SpecieDetails from "../components/movies/species/SpecieDetails.vue";
+
 export default {
   components: {
-    DashboardBoxes,
-    Table,
+    SpecieDetails,
   },
 
   mounted() {
