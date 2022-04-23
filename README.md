@@ -1,24 +1,41 @@
-# enyata
+This is a vuejs Assessment Application for Enyata. It is responsive and API featured.
 
-## Project setup
-```
+## Getting started
+
+### Requirements
+
+- **Node.JS**, **NPM** installed globally in your OS
+- **Vue**, **Axios** libraries (updated) installed in your project.
+
+### Installation
+
+Install `dependencies` of this project by:
+
+```cli
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### Using
+
+_Note that both ways of usage are **optional**, because wrapper automatically uses available Highcharts instance by default from peer dependency._
+
+clone this repository, open terminal/console and enter this commands from the repo directory level:
+
+```cli
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+Server runs at `http://localhost:8080`
+
+### Using For Production
+
+Note that the development build is not optimized.
+To create a production build, Enter this commands from the repo directory level:
+
+```cli
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Developed By
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Victor Nwakwue: https://victornwakwue.netlify.app/
